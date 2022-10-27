@@ -1,7 +1,3 @@
-// 
-// const path = require('path');
-// const crypto = require('crypto');
-
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -75,9 +71,7 @@ const handleNoteSave = () => {
     const newNote = {
         title: noteTitle.value,
         text: noteText.value,
-        // id: crypto.randomUUID()
     };
-    // console.log(newNote);
     saveNote(newNote).then(() => {
         getAndRenderNotes();
         renderActiveNote();
