@@ -30,7 +30,7 @@ router.post('/notes', (req, res) => {
 router.delete('/notes/:id', (req, res) => {
     const id = req.params.id;
 
-    deleteIndex = notes.findIndex(note => note.id === id);
+    const deleteIndex = notes.findIndex(note => note.id === id);
 
     notes.splice(deleteIndex, 1);
 
