@@ -11,7 +11,9 @@ This was a challenge in understanding and creating Express routes, as well as un
 
 The deployed application can be found [here](https://note-taker-876.herokuapp.com).
 
-THe below screenshot shows the home page. Click "Get Started" to navigate to the Notes page which allows you to begin creating and saving notes.
+To view the data on the back end, please use URL following the format: https://note-taker-876.herokuapp.com/api/notes. In the view, the user can view data such as the unique IDs of the notes.
+
+The below screenshot shows the home page. Click "Get Started" to navigate to the Notes page which allows you to begin creating and saving notes.
 
 ![Home page for Note Taker.](./assets/images/landing-page.png)
 
