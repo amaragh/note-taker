@@ -14,7 +14,7 @@ router.post('/notes', (req, res) => {
     let newNote = {
         title: req.body.title,
         text: req.body.text,
-        id: crypto.randomUUID()
+        id: Math.random().toString(36).slice(2)
     }
     notes.push(newNote)
 
